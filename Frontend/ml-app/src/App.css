@@ -1,0 +1,12 @@
+.app-container {
+
+
+
+}
+
+html, body, #root {
+  background-color: #16161D;  /* APP Background*/
+  margin: 0; /* Reset margin to remove any default space */
+  padding: 0; /* Reset padding to remove any default space */
+  height: 100%; /* Ensure the entire height is covered */
+}

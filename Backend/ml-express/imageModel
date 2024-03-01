@@ -1,0 +1,31 @@
+
+/*
+const mongoose = require('mongoose');
+const dbURI = 'mongodb://localhost:27017/db'; 
+const imageSchema = new mongoose.Schema({
+  // Field for the image file name
+  fileName: {
+    type: String,
+    required: true,
+  },
+  // Field for the user ID associated with the image
+  userId: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'User', // Reference to the User model if you have one
+    required: true,
+  },
+  // Additional fields for relevant information (e.g., description, upload date, etc.)
+  description: {
+    type: String,
+    required: false,
+  },
+  uploadDate: {
+    type: Date,
+    default: Date.now,
+  },
+});
+
+const Image = mongoose.model('Image', imageSchema);
+
+module.exports = Image;
+*/ 
